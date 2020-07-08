@@ -10,15 +10,15 @@
     <?php
     
         // 【サンプル】
-    	// ・データベース名：tb220164db
-    	// ・ユーザー名：tb-220164
-    	// ・パスワード：Qfn3gnKFP5
-    	// option, id, name, comment, date, password 
+    	// ・データベース名：tb******db
+    	// ・ユーザー名：tb-******
+    	// ・パスワード：**********
+    	// id, name, comment, date, pw 
     
     	// DB接続設定
     	$dsn = 'mysql:dbname=tb220164db;host=localhost';
-    	$user = 'tb-220164';
-    	$password = 'Qfn3gnKFP5';
+    	$user = 'tb-******';
+    	$password = '**********';
     	$pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     
         #テーブルを新規作成
